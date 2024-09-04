@@ -1,1 +1,81 @@
-Matt Marx
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .bio {
+            max-width: 600px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+    </header>
+    <nav>
+        <a href="#research">Research</a>
+        <a href="#data-code">Data/Code</a>
+        <a href="#teaching">Teaching</a>
+    </nav>
+    <div class="container">
+        <div class="profile">
+            <!-- Replace 'your-photo.jpg' with the actual path to your photo -->
+            <img src="your-photo.jpg" alt="Your Name" style="width:200px;height:200px;border-radius:50%;">
+            <div class="bio">
+                <h2>About Me</h2>
+                <p>Write your short bio here. This is where you can briefly introduce yourself, your interests, and your professional background.</p>
+            </div>
+        </div>
+        <section id="research">
+            <h2>Research</h2>
+            <p>Description of your research interests, projects, or publications.</p>
+        </section>
+        <section id="data-code">
+            <h2>Data/Code</h2>
+            <p>Link to repositories, datasets, or code you've developed or contributed to.</p>
+        </section>
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <p>Information about courses you teach, educational materials, or teaching philosophy.</p>
+        </section>
+    </div>
+</body>
+</html>
